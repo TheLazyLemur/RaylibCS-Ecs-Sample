@@ -8,6 +8,6 @@ Clone or download the repo and run ```dotnet run```.
 
 ## Libraries
 
-- [LeoECS] (https://github.com/Leopotam/ecs)
-- [Raylib] (https://github.com/raysan5/raylib)
-- [Raylib CS Bindings] (https://github.com/ChrisDill/Raylib-cs)
+- [LeoECS](https://github.com/Leopotam/ecs)
+- [Raylib](https://github.com/raysan5/raylib)
+- [Raylib CS Bindings](https://github.com/ChrisDill/Raylib-cs)
