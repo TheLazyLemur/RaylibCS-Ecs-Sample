@@ -1,6 +1,6 @@
 # RaylibCS-Ecs-Sample
 
-Smaple using Raylib CS bindings and LeoECS using .Net 5
+Sample using Raylib CS bindings and LeoECS using .Net 5
 
 ## Setup
 
