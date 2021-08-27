@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaylibEcsSample", "RaylibEcsSample\RaylibEcsSample.csproj", "{4E3A091E-3113-4233-B020-B1530DE47B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leopotam.Ecs", "ecs-2021.7.22\Leopotam.Ecs.csproj", "{B9B51219-8381-4D6B-8829-E3DA67F05FAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3A091E-3113-4233-B020-B1530DE47B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3A091E-3113-4233-B020-B1530DE47B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3A091E-3113-4233-B020-B1530DE47B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3A091E-3113-4233-B020-B1530DE47B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B51219-8381-4D6B-8829-E3DA67F05FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B51219-8381-4D6B-8829-E3DA67F05FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B51219-8381-4D6B-8829-E3DA67F05FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B51219-8381-4D6B-8829-E3DA67F05FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
