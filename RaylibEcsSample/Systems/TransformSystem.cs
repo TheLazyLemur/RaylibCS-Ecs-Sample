@@ -9,7 +9,7 @@ namespace RaylibEcsSample.Systems
     internal class TransformSystem : IEcsInitSystem, IEcsRunSystem
     {
         private readonly EcsFilter<TransformComponent>? _transformFilter = null;
-        private static readonly Random Rand = new Random();
+        private static readonly Random Rand = new();
 
         public void Init()
         {
@@ -18,6 +18,8 @@ namespace RaylibEcsSample.Systems
             {
                 ref var transform = ref _transformFilter.Get1(i);
                 transform.Velocity = new Vector2(Rand.Next(-1000, 1000), Rand.Next(-1000, 1000));
+                transform.Position.X = (float)1920 / 2;
+                transform.Position.Y = (float)1080 / 2;
             }
         }
 
